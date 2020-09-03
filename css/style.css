@@ -2,8 +2,17 @@ body {
   background-image: url(../assets/background/blackpaper-hires.jpg);
 }
 
-a {
-  font-size: 4vw;
+.header {
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+a img {
+  margin: 10px;
+  width: 100px;
 }
 
 .link img {
@@ -13,16 +22,44 @@ a {
   margin-top: 5px;
   margin-bottom: 5px;
   border: 0;
-  opacity: 100%;
+  opacity: 30%;
   border-radius: 20px;
-  box-shadow: 0px 0px 20px 0px royalblue;
+  box-shadow: 0px 0px 30px 0px white;
 }
 
+.link-1 img:hover {
+  opacity: 100%;
+  box-shadow: 0px 0px 40px 0px greenyellow;
+
+}
+
+p {
+  font-family: cursive;
+  font-size: 4.5vw;
+  color: white;
+  font-weight: 900;
+}
+
+
+/* MOBILE DEPLOYMENT */
 @media (max-width: 510px) {
+  a img {
+    width: 50px;
+  }
+
   .link img {
     height: 100px;
     width: 200px;
     margin: 20px;
+  }
 
+  .link img:hover {
+    opacity: 100%;
+    box-shadow: 0px 0px 40px 0px greenyellow;
+
+  }
+
+  .row {
+    width: 490px;
   }
 }
