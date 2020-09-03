@@ -27,7 +27,7 @@ a img {
   box-shadow: 0px 0px 30px 0px white;
 }
 
-.link-1 img:hover {
+.link img:hover {
   opacity: 100%;
   box-shadow: 0px 0px 40px 0px greenyellow;
 
@@ -38,6 +38,7 @@ p {
   font-size: 4.5vw;
   color: white;
   font-weight: 900;
+  text-align: center;
 }
 
 
