@@ -93,7 +93,7 @@ a img {
 
 p {
   font-family: cursive;
-  font-size: 4vw;
+  font-size: 4.5vw;
   color: white;
   font-weight: 900;
   text-align: center;
@@ -109,7 +109,7 @@ p {
   .link img {
     height: 100px;
     width: 200px;
-    margin: 10px;
+    margin: 20px;
   }
 
   .link img:hover {
