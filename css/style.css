@@ -108,8 +108,8 @@ p {
 
   .link img {
     height: 100px;
-    width: 180px;
-    margin: 15px;
+    width: 200px;
+    margin: 20px;
   }
 
   .link img:hover {
@@ -119,7 +119,6 @@ p {
   }
 
   .row {
-    margin-right: auto;
-    margin-left: auto;
+    width: 490px;
   }
 }
