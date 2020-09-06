@@ -34,8 +34,7 @@ body {
 
 @-webkit-keyframes colorchange
 
-/* Safari and Chrome - necessary duplicate */
-  {
+/* Safari and Chrome - necessary duplicate */ {
   0% {
     background: blue;
     color: cyan;
@@ -65,7 +64,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-
 }
 
 a img {
@@ -88,7 +86,6 @@ a img {
 .link img:hover {
   opacity: 100%;
   box-shadow: 0px 0px 40px 0px greenyellow;
-
 }
 
 p {
@@ -99,9 +96,12 @@ p {
   text-align: center;
 }
 
-
 /* MOBILE DEPLOYMENT */
 @media (max-width: 510px) {
+  .i-header {
+    max-width: 480px;
+  }
+
   a img {
     width: 50px;
   }
@@ -115,7 +115,6 @@ p {
   .link img:hover {
     opacity: 100%;
     box-shadow: 0px 0px 40px 0px greenyellow;
-
   }
 
   .row {
